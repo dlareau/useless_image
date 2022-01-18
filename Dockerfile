@@ -1,3 +1,3 @@
-FROM ubuntu:latest
+FROM python:2
 
 CMD ["python", "-m", "SimpleHTTPServer", "8000"]
