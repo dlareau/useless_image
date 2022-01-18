@@ -1,3 +1,3 @@
 FROM ubuntu:latest
 
-CMD ["watch", "ls"]
+CMD ["python", "-m", "SimpleHTTPServer", "8000"]
